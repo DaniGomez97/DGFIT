@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imgfondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/appBarTarifas"
+        android:layout_width="411dp"
+        android:layout_height="77dp"
+        android:background="#92587C3F"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="TARIFAS"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnVolver2"
+        android:layout_width="72dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00FFFFFF"
+        android:gravity="center"
+        android:text="←"
+        android:textColorHint="#00FFFFFF"
+        android:textSize="50sp"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:layout_constraintBottom_toBottomOf="@+id/appBarTarifas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:rippleColor="#00FFFFFF" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="223dp"
+        android:layout_height="455dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarTarifas"
+        app:layout_constraintVertical_bias="0.542">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="50dp"
+            app:cardBackgroundColor="#D08C8686">
+
+            <TextView
+                android:id="@+id/txtPresencial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/audiowide"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="ENTRENAMIENTO PRESENCIAL"
+                android:textColor="#FFFFFF"
+                tools:ignore="HardcodedText" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="50dp"
+            app:cardBackgroundColor="#D08C8686">
+
+            <TextView
+                android:id="@+id/txtOnline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/audiowide"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="ENTRENAMIENTO ONLINE"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="30dp"
+            app:cardBackgroundColor="#D08C8686">
+
+            <TextView
+                android:id="@+id/txtNutricion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="NUTRICIÓN"
+                android:textColor="#FFFFFF" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnContactar2"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#92587C3F"
+        android:text="@string/contacta"
+        android:textAlignment="center"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="151dp"
+        android:layout_height="454dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/LinearLayout1"
+        app:layout_constraintTop_toBottomOf="@+id/appBarTarifas"
+        app:layout_constraintVertical_bias="0.551">
+
+        <Button
+            android:id="@+id/btnTarifaPresencial"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/audiowide"
+            android:gravity="center"
+            android:shadowColor="#A5B868"
+            android:shadowDx="7"
+            android:shadowDy="7"
+            android:shadowRadius="10"
+            android:text="Ver tarifa"
+            android:textSize="10sp"
+            app:backgroundTint="#92587C3F"
+            app:cornerRadius="30dp"
+            app:icon="?android:attr/actionModeWebSearchDrawable"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btnTarifaOnline"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/audiowide"
+            android:shadowColor="#A5B868"
+            android:shadowDx="7"
+            android:shadowDy="7"
+            android:shadowRadius="10"
+            android:text="Ver tarifa"
+            android:textSize="10sp"
+            app:backgroundTint="#92587C3F"
+            app:cornerRadius="30dp"
+            app:icon="?android:attr/actionModeWebSearchDrawable"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btnTarifaNutricion"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="@font/audiowide"
+            android:shadowColor="#A5B868"
+            android:shadowDx="7"
+            android:shadowDy="7"
+            android:shadowRadius="10"
+            android:text="Ver tarifa"
+            android:textSize="10sp"
+            app:backgroundTint="#92587C3F"
+            app:cornerRadius="30dp"
+            app:icon="?android:attr/actionModeWebSearchDrawable"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

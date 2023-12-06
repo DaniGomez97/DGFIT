@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTriceps">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/fondo5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background" />
+
+    <Button
+        android:id="@+id/btnVolver13"
+        android:layout_width="77dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="#00FFFFFF"
+        android:gravity="center"
+        android:text="←"
+        android:textSize="50sp"
+        app:icon="?attr/homeAsUpIndicator"
+        app:layout_constraintBottom_toBottomOf="@+id/appBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/appBar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/appBar3"
+        android:layout_width="411dp"
+        android:layout_height="87dp"
+        android:background="#92587C3F"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="TRÍCEPS"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtBienvenida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="392dp"
+        android:layout_height="593dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBar3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="208dp"
+                android:layout_height="117dp"
+                android:layout_below="@+id/img3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="-8dp"
+                android:src="@drawable/fondos" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="190dp"
+                android:layout_height="123dp"
+                android:layout_below="@+id/txt3"
+                android:layout_alignParentStart="false"
+                android:freezesText="false"
+                android:gravity="center"
+                android:text="1. FONDOS "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="190dp"
+                android:layout_height="123dp"
+                android:layout_below="@+id/img4"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:src="@drawable/frances" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="190dp"
+                android:layout_height="123dp"
+                android:layout_below="@+id/txt4"
+                android:freezesText="false"
+                android:gravity="center"
+                android:text="2. PRESS FRANCÉS"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="190dp"
+                android:layout_height="123dp"
+                android:layout_below="@+id/img5"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:src="@drawable/extension" />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="190dp"
+                android:layout_height="123dp"
+                android:layout_below="@+id/txt5"
+                android:freezesText="false"
+                android:gravity="center"
+                android:text="3. EXTENSIÓN EN POLEA"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

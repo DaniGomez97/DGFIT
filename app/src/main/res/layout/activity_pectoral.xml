@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/fondo5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="77dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="#00FFFFFF"
+        android:gravity="center"
+        android:text="←"
+        android:textSize="50sp"
+        app:icon="?attr/homeAsUpIndicator"
+        app:layout_constraintBottom_toBottomOf="@+id/appBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/appBar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/appBar"
+        android:layout_width="411dp"
+        android:layout_height="87dp"
+        android:background="#92587C3F"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="PECTORAL"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtBienvenida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="597dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBar">
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="557dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBar">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="215dp"
+            android:layout_height="123dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/banca" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="190dp"
+            android:layout_height="123dp"
+            android:layout_marginEnd="1dp"
+            android:gravity="center"
+            android:text="1. PRESS BANCA"
+            android:textColor="#EAEAEA"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="215dp"
+            android:layout_height="123dp"
+            android:layout_below="@+id/img1"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/superior"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="190dp"
+            android:layout_height="123dp"
+            android:layout_below="@+id/txt1"
+            android:gravity="center"
+            android:text="2. PRESS SUPERIOR CON MANCUERNAS"
+            android:textColor="#EAEAEA"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="215dp"
+            android:layout_height="123dp"
+            android:layout_below="@+id/img2"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/peck_deck" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="190dp"
+            android:layout_height="123dp"
+            android:layout_below="@+id/txt2"
+            android:layout_marginEnd="1dp"
+            android:gravity="center"
+            android:text="3. APERTURAS PECK DECK"
+            android:textColor="#EAEAEA"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="215dp"
+            android:layout_height="156dp"
+            android:layout_below="@+id/img3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-17dp"
+            android:layout_marginEnd="-1dp"
+            android:src="@drawable/crucepolea" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="190dp"
+            android:layout_height="123dp"
+            android:layout_below="@+id/txt3"
+            android:gravity="center"
+            android:text="4. CRUCES EN POLEA"
+            android:textColor="#EAEAEA"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="215dp"
+            android:layout_height="156dp"
+            android:layout_below="@+id/img4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-31dp"
+            android:layout_marginEnd="-1dp"
+            android:src="@drawable/flexiones" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="190dp"
+            android:layout_height="123dp"
+            android:layout_below="@+id/txt4"
+            android:gravity="center"
+            android:text="5. FLEXIONES"
+            android:textColor="#EAEAEA"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

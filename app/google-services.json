@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "484629174952",
+    "firebase_url": "https://dgfit-81206-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "dgfit-81206",
+    "storage_bucket": "dgfit-81206.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484629174952:android:b30a056a0e4a82d232809d",
+        "android_client_info": {
+          "package_name": "DG.FIt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484629174952-l771shh8hdm9gkfpc18j4rnng4bee20j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "DG.FIt",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "484629174952-shcsem2ok5oqlrpjqcoh9vpsfqlp84gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-gJ_wKc7wKQ7fTsVoG8Wdc5I93XUjmEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484629174952-shcsem2ok5oqlrpjqcoh9vpsfqlp84gj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "484629174952-7vihtuuitfvhs9j3ts4iv41k72ujflfu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "DG.FIt"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484629174952:android:febcfffb33c7cafd32809d",
+        "android_client_info": {
+          "package_name": "com.example.pacdes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484629174952-13a63jepjt7mcdo6vo02op0iq133q72m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pacdes",
+            "certificate_hash": "9d1f101900b6051090f9c897c96961eb6e933d2d"
+          }
+        },
+        {
+          "client_id": "484629174952-shcsem2ok5oqlrpjqcoh9vpsfqlp84gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-gJ_wKc7wKQ7fTsVoG8Wdc5I93XUjmEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484629174952-shcsem2ok5oqlrpjqcoh9vpsfqlp84gj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "484629174952-7vihtuuitfvhs9j3ts4iv41k72ujflfu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "DG.FIt"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:contextClickable="false"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnEjercicios"
+        android:layout_width="215dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/audiowide"
+        android:shadowColor="#A5B868"
+        android:shadowDx="7"
+        android:shadowDy="7"
+        android:shadowRadius="10"
+        android:text="Ejercicios"
+        app:backgroundTint="#888A985E"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTarifas"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <Button
+        android:id="@+id/btnTarifas"
+        android:layout_width="215dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/audiowide"
+        android:shadowColor="#A5B868"
+        android:shadowDx="7"
+        android:shadowDy="7"
+        android:shadowRadius="10"
+        android:text="@string/entrena_conmigo"
+        app:backgroundTint="#888A985E"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ini_ses"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <Button
+        android:id="@+id/btnConsejos"
+        android:layout_width="215dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/audiowide"
+        android:shadowColor="#A5B868"
+        android:shadowDx="7"
+        android:shadowDy="7"
+        android:shadowRadius="10"
+        android:text="Consejos"
+        app:backgroundTint="#888A985E"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ini_ses"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <Button
+        android:id="@+id/btnInstagram"
+        android:layout_width="173dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/audiowide"
+        android:shadowColor="#A5B868"
+        android:shadowDx="7"
+        android:shadowDy="7"
+        android:shadowRadius="10"
+        android:text="Follow us!"
+        app:backgroundTint="#00030303"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEjercicios"
+        app:layout_constraintVertical_bias="0.88"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtTit"
+        android:layout_width="288dp"
+        android:layout_height="83dp"
+        android:fontFamily="@font/audiowide"
+        android:shadowColor="#8A985E"
+        android:shadowDx="10"
+        android:shadowDy="7"
+        android:shadowRadius="7"
+        android:text="@string/DGFit"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="54sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <Button
+        android:id="@+id/btn_ini_ses"
+        android:layout_width="215dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/audiowide"
+        android:shadowColor="#A5B868"
+        android:shadowDx="7"
+        android:shadowDy="7"
+        android:shadowRadius="10"
+        android:text="Login"
+        android:textSize="14sp"
+        app:backgroundTint="#888A985E"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="214dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="360dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtTit"
+        app:srcCompat="@drawable/croco"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="145dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnInstagram"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEjercicios"
+        app:layout_constraintVertical_bias="0.887"
+        app:srcCompat="@drawable/pngwing_com" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PACDES</string>
+    <string name="btnFoto">Tomar foto</string>
+    <string name="volver">Volver</string>
+    <string name="imgfondo">ImgFondo</string>
+    <string name="b2">B2</string>
+    <string name="b1">B1</string>
+    <string name="bienvenido_al_reproductor_pac">Bienvenido al reproductor PAC</string>
+    <string name="b3">b3</string>
+    <string name="crear_tabla">Crear tabla</string>
+    <string name="volver2">Volver</string>
+    <string name="calcular_datos">Calcular datos</string>
+    <string name="insertar_datos">Insertar datos</string>
+    <string name="fondo">FONDO</string>
+    <string name="fondo4">FONDO</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="volver4">Volver</string>
+    <string name="fondo5">FONDO4</string>
+    <string name="fondoHoriz">FONDOHORIZ</string>
+    <string name="btnVolver">Volver</string>
+    <string name="consultar_datos">consultar datos</string>
+    <string name="DGFit">DGFit</string>
+    <string name="entrenamientos">Entrenamientos</string>
+    <string name="alimentaci_n">Alimentación</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="entrena_conmigo">Entrena conmigo</string>
+    <string name="logo">Logo</string>
+    <string name="contacta">Contacta</string>
+    <string name="_2_remo_con_barra">2. REMO CON BARRA</string>
+    <string name="_1_b_ceps_curl_barra_z">1. BÍCEPS - Curl Barra Z</string>
+    <string name="_3_remo_t">3. REMO T</string>
+    <string name="_3_p_jaros_para_posterior">3. Pájaros para posterior</string>
+    <string name="_4_elevaciones_laterales_polea">4. Elevaciones laterales polea</string>
+</resources>
